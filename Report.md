@@ -1,7 +1,7 @@
 # Report
 
 ## Summary
-***
+
 An agent is trained to  navigate (and collect bananas!) in a large, square world. A Banana Collector environment of the
 Unity ML Agents Toolkit 
 
@@ -18,7 +18,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ## Implementation
-***
+
 Agent implements a vanilla DQN (Deep Q Network). DQN consists of multilayer neural network, which outputs an action value vector for given state `s`. DQN algorithm uses a replay buffer along with two identical neural network called as local and target neural network. Target network is used as a reference. Target network parameter `θ`<sup>-</sup> are same as local network but they are kept constant for `t_steps` after that they are update with parameter `θ` of local network.
 
 ### Model Configuration
