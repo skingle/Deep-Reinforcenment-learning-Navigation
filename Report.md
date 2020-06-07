@@ -78,6 +78,11 @@ Above hyper parameter are used for training the agent.
 * With DDQN, Agent in the initial state gave constant score. the score was not that random as DQN
 * In evaluation, DDQN performs well than DQN
 
+DQN | DDQN
+ ------------ | -------------
+![ddqn_training](ReportArtifacts/dqn_trainning_graph.png)|![ddqn_training](ReportArtifacts/ddqn_trainning_graph.png)
+Episode 531	Average Score: 13.01|Episode 480	Average Score: 13.01
+Environment solved in 431 episodes! | Environment solved in 380 episodes!
 
 ## Future Work
 For further improvement following fields could be investigated.
